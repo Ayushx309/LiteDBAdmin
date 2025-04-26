@@ -21,6 +21,17 @@ LiteDBAdmin provides a professional interface for database operations with a res
 <img src="src/screenshots/dashboard.png" alt="LiteDBAdmin Screenshot" width="80%" style="border-radius: 8px;"/>
 </div>
 
+## 🚀 Live Demo
+
+Try LiteDBAdmin without installation! Visit our live demo at:
+
+🔗 [https://litedbadmin.eternalbytes.in](https://litedbadmin.eternalbytes.in)
+
+**Demo Credentials:**
+- Password: `@ayushx309@`
+
+> **Note:** This is a public demo with a shared database. Please be respectful and don't delete or modify important data. The database resets periodically, and some features might be restricted for security reasons.
+
 ## ✨ Features
 
 ### 🚀 Core Features
