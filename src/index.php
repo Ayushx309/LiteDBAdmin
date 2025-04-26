@@ -5,7 +5,7 @@ session_start();
 require_once 'LiteDBAdmin/config.php';
 
 if (isset($_SESSION['dev_authenticated']) && $_SESSION['dev_authenticated'] === true) {
-    header("Location: ./");
+    header("Location: LiteDBAdmin/");
     exit();
 }
 
