@@ -5,7 +5,7 @@ session_start();
 require_once 'LiteDBAdmin/config.php';
 
 if (isset($_SESSION['dev_authenticated']) && $_SESSION['dev_authenticated'] === true) {
-    header("Location: LiteDBAdmin/");
+    header("Location: ./");
     exit();
 }
 
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !$is_locked) {
             
             $_SESSION['dev_authenticated'] = true;
             
-            header("Location: sqlManager/");
+            header("Location: LiteDBAdmin/");
             exit();
         } else {
             $_SESSION['login_attempts']++;
